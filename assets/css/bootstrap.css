@@ -4080,8 +4080,8 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-item {
-  margin-bottom: -1px;
-}
+        margin-bottom: -1px;
+ }
 
 .nav-tabs .nav-link {
   border: 1px solid transparent;
@@ -4192,6 +4192,7 @@ input[type="button"].btn-block {
   margin-bottom: 0;
   list-style: none;
 }
+
 
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -9729,6 +9730,7 @@ button.bg-dark:focus {
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
+
 
 .text-justify {
   text-align: justify !important;
