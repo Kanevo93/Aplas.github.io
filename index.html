@@ -26,6 +26,16 @@
     <link href="assets/css/sidebar-menu.css" rel="stylesheet" />
     <!-- Custom Style-->
     <link href="assets/css/app-style.css" rel="stylesheet" />
+    <style>
+        .nav-link {
+            display: inline-block;
+            font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
 
 </head>
 
@@ -76,17 +86,32 @@
          </li>
 
          <li data-toggle="collapse" data-target="#navbarAdmin" aria-controls="navbarAdmin" aria-expanded="false" aria-label="Toggle navigation">
-             <a class="zmdi zmdi-account-circle"> <span>Administrator</span></a>
+             <a class="zmdi zmdi-account-circle"> <span>System</span></a>
              <div class="collapse navbar-collapse" id="navbarAdmin">
                  <ul>
-                     <li class="nav-item">
-                         <a class="nav-link" href="#"><span>Login</span></a>
-                     </li>
+                     <!--<li class="nav-item">
+        <a class="nav-link" href="#"><span>Login</span></a>
+    </li>-->
                      <li class="nav-item">
                          <a class="nav-link" href="#"><span>Group User</span></a>
                      </li>
                      <li class="nav-item">
                          <a class="nav-link" href="#"><span>Group Authorization</span></a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#"><span>CRm Master Data</span></a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#"><span>Production Master Data</span></a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#"><span>Quality Control Master Data</span></a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#"><span>HRM Master Data</span></a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#"><span>ME Master Data</span></a>
                      </li>
                  </ul>
              </div>
@@ -240,7 +265,7 @@
          </li>
 
          <li data-toggle="collapse" data-target="#navbarPR" aria-controls="navbarPR" aria-expanded="false" aria-label="Toggle navigation">
-             <a class="zmdi zmdi-book-image"> <span>Purchase Requisition</span></a>
+             <a class="zmdi zmdi-book-image"> <span>Purchase</span></a>
              <div class="collapse navbar-collapse" id="navbarPR">
                  <ul>
                      <li class="nav-item">
